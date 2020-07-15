@@ -211,10 +211,29 @@ footer{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.foot-link{
+    margin-top: 10%;
+}
+.foot-link > a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #071126;
+}
+.link-a{
+    margin-left: 30px;
+}
+.foot-link > a:hover{
+    font-weight: bold;
+}
+.icon-bar{
+    margin-top: 10%;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) { 
     #txt-box{
-        margin-top: 100px;
+        margin-top: 50px;
     } 
     .txt-1{
         font-size: 30px;
@@ -224,18 +243,50 @@ footer{
     }
     .input1{
         height: 60px;
-        width: 250px;
-        padding-right: 30px;
+        width: 100%;
+        padding-right: 0px;
         padding-left: 30px;
+        display: block;
+        margin: auto;
     }
     .button{
         height: 60px;
-        width: 150px;
-        margin-left: -5px;
+        width: 200px;
+        padding: 5px;
+        margin-left: 0px;
+        display: block;
+        margin: auto;
+    }
+    .email2{
+        width: 600px;
+        height: 60px;
+        padding-right: 0px;
+        padding-left: 30px;
+        display: block;
+        margin: auto;
+    }
+    .button2{
+        height: 60px;
+        border-radius: 5px;
+        width: 200px;
+        margin-left: 0px;
+        display: block;
+        margin: auto;
+    }
+    .head-4{
+        text-align: center;
+    }
+    .head-2{
+        padding-left: 0px;
+        text-align: center;
     }
 }
 
 @media (min-width: 320px) and (max-width: 480px) { 
+    .nav-item{
+        margin-left: 0px;
+        text-align: center;
+    }
     #collapsibleNavbar{
     background-color: #000000;
     padding: 20px;
@@ -244,12 +295,9 @@ footer{
 #txt-box{
     margin-top: 5px;
 } 
-.email2{
-    width: 300px;
-}
 .input1{
     height: 60px;
-    width: 270px;
+    width: 100%;
     padding-right: 0px;
     padding-left: 30px;
     display: block;
@@ -274,7 +322,7 @@ footer{
     text-align: center;
 }
 .email2{
-    width: 270px;
+    width: 100%;
     height: 60px;
     padding-right: 0px;
     padding-left: 30px;
@@ -288,5 +336,11 @@ footer{
     margin-left: 0px;
     display: block;
     margin: auto;
+}
+#about{
+    margin-top: 30px;
+}
+form{
+    margin: 40px;
 }
 }
