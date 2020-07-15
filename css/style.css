@@ -17,8 +17,8 @@ h1,h2,h3,h4,h5,h6,p{
     font-family: 'Poppins', sans-serif;
 }
 
-nav{
-    z-index: 999;
+.navbar{
+    padding: 50px;
 }
 #bars{
     color: #ffffff;
@@ -55,19 +55,16 @@ button:focus {
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
-    line-height: 60px;
 }
 .txt-2{
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
-    line-height: 45px;
 }
 .txt-3{
     font-style: italic;
     font-weight: 300;
     font-size: 18px;
-    line-height: 27px;
     color: #D6A127;
 }
 form{
@@ -106,7 +103,6 @@ form{
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 36px;
 }
 .head-1{
     font-style: normal;
@@ -217,15 +213,80 @@ footer{
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { 
+    #txt-box{
+        margin-top: 100px;
+    } 
+    .txt-1{
+        font-size: 30px;
+    }
+    .txt-2{
+        font-size: 20px;
+    }
+    .input1{
+        height: 60px;
+        width: 250px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .button{
+        height: 60px;
+        width: 150px;
+        margin-left: -5px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) { 
-}
-
-/*
-#collapsibleNavbar{
+    #collapsibleNavbar{
     background-color: #000000;
     padding: 20px;
     border-radius: 10px;
 }
-*/
+#txt-box{
+    margin-top: 5px;
+} 
+.email2{
+    width: 300px;
+}
+.input1{
+    height: 60px;
+    width: 270px;
+    padding-right: 0px;
+    padding-left: 30px;
+    display: block;
+    margin: auto;
+}
+.button{
+    height: 60px;
+    width: 200px;
+    padding: 5px;
+    margin-left: 0px;
+    display: block;
+    margin: auto;
+}
+.head-1{
+    text-align: center;
+}
+.head-4{
+    text-align: center;
+}
+.head-2{
+    padding-left: 0px;
+    text-align: center;
+}
+.email2{
+    width: 270px;
+    height: 60px;
+    padding-right: 0px;
+    padding-left: 30px;
+    display: block;
+    margin: auto;
+}
+.button2{
+    height: 60px;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 0px;
+    display: block;
+    margin: auto;
+}
+}
