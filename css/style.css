@@ -283,6 +283,9 @@ footer{
 }
 
 @media (min-width: 320px) and (max-width: 480px) { 
+    .navbar{
+        padding: 30px;
+    }
     .nav-item{
         margin-left: 0px;
         text-align: center;
