@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
 
     <link rel="preload" href="images/Group 151.png" as="image">
     <link rel="preload" href="images/Frame 3.png" as="image">
@@ -17,6 +17,7 @@
 </head>
 <body class="body">
 
+    <!-- Header -->
     <section class="header">
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="index">ZATHURA</a>
@@ -44,20 +45,23 @@
                         <p class="txt-2">Use ZATHURA to see other planets <br> and the moon from your phone!!</p>
                         <p class="txt-3">Supercool right</p>
                     </div>
-                    <form action="/submission" method="post">
-                        <input placeholder="Enter your Email Address" class="input1" type="email" name="Email" id="email"><input class="button" type="submit" value="Get Early Access">
+                    <form action="subscribe.php" method="post">
+                        <input placeholder="Enter your Email Address" class="input1" type="email" name="email" id="email" required><input class="button" type="submit" value="Get Early Access">
                     </form>
 
                 </div>
                 <div class="col-sm" data-aos="fade-up" data-aos-duration="1500">
                     <div class="container">
+                        <a href="/images/Group 182 (1).png" class="pop">
                     <img class="image" src="images/Group 182 (1).png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
           </div>
     </section>
 
+    <!-- About -->
     <section id="about">
     <div class="container">
         <div class="row">
@@ -69,46 +73,62 @@
                 </div>
             </div>
             <div class="col-sm" data-aos="fade-up" data-aos-duration="1500">
-                <img class="image" src="images/Group 151.png" alt="">
+                <a href="/images/Group 151.png" class="pop">
+                    <img class="image" src="images/Group 151.png" alt="">
+                </a>
             </div>
         </div>
       </div>
     </section>
 
+    <!-- Features -->
     <section id="features">
         <div class="container">
             <p class="head-4">How <b class="boldness">ZATHURA</b> looks like</p>
             <div class="row">
                 <div class="col-sm" data-aos="zoom-in" data-aos-duration="1500">
+                    <a href="/images/Group 15 (2).png" class="pop">
                     <img class="image" src="images/Group 15 (2).png" alt="">
+                    </a>
                     <p class="title">Splash Screen</p>
                 </div>
                 <div class="col-sm" data-aos="zoom-in" data-aos-duration="1500">
-                    <img class="image" src="images/Group 16 (1).png" alt="">
+                    <a href="/images/Group 16 (1).png" class="pop">
+                        <img class="image" src="images/Group 16 (1).png" alt="">
+                    </a>
                     <p class="title">Onboarding Screen</p>
                 </div>
                 <div class="col-sm" data-aos="zoom-in" data-aos-duration="1500">
-                    <img class="image" src="images/Group 181 (1).png" alt="">
+                    <a href="/images/Group 181 (1).png" class="pop">
+                        <img class="image" src="images/Group 181 (1).png" alt="">
+                    </a>
                     <p class="title">Onboarding Screen 2</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm" data-aos="zoom-in" data-aos-duration="1500">
-                    <img class="image" src="images/Group 18 (1).png" alt="">
+                    <a href="/images/Group 18 (1).png" class="pop">
+                        <img class="image" src="images/Group 18 (1).png" alt="">
+                    </a>
                     <p class="title">Home Screen</p>
                 </div>
                 <div class="col-sm" data-aos="zoom-in" data-aos-duration="1500">
-                    <img class="image" src="images/Group 19 (1).png" alt="">
+                    <a href="/images/Group 19 (1).png" class="pop">
+                        <img class="image" src="images/Group 19 (1).png" alt="">
+                    </a>
                     <p class="title">Planet Screen</p>
                 </div>
                 <div class="col-sm" data-aos="zoom-in" data-aos-duration="1500">
-                    <img class="image" src="images/Group 20 (1).png" alt="">
+                    <a href="/images/Group 20 (1).png" class="pop">
+                        <img class="image" src="images/Group 20 (1).png" alt="">
+                    </a>
                     <p class="title">Trip Screen</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Info -->
     <section id="info">
         <div class="container">       
              <p class="head-2"><b class="boldness">ZATHURA</b> Prototype</p>
@@ -120,17 +140,19 @@
         </div>
     </section>
 
+    <!-- Last Section Form -->
     <section id="last-part">
         <div class="container" data-aos="fade-up" data-aos-duration="1000">
             <p class="head-3">Join the <b class="boldness">ZATHURA</b> waiting list</p>
             <p class="sub-head">To get early access</p></div>
         <div class="form-2">
-        <form action="/submission" method="post">
-            <input class="email2" placeholder="Enter your email Address" type="email" name="Email" id="email"><input class="button2" type="submit" value="Join Zathura">
+        <form action="subscribe.php" method="post">
+            <input class="email2" placeholder="Enter your email Address" type="email" name="email" id="email" required><input class="button2" type="submit" value="Join Zathura">
         </form>
         </div>
     </section>
 
+    <!-- Footer -->
     <section>
         <footer>
             <div class="container">
@@ -161,11 +183,14 @@
     
 
 
-
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="js/index.js" type="text/javascript"></script>
 <script>
     AOS.init();
 </script>
