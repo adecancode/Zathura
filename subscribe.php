@@ -3,7 +3,7 @@
 // get value of email on submit
   $email = $_POST['email'];
 
-  $conn = new mysqli('db4free.net','root','','earlyaccess');
+  $conn = new mysqli('db4free.net','Ade@2005','adecancode','earlyaccess');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
