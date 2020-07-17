@@ -263,6 +263,30 @@ footer{
     margin-top: 10%;
 }
 
+/* Modal Styles */
+.swal-modal {
+    background: #071126;
+    border-radius: 4px;
+    padding: 20px;
+}
+.swal-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #DEE8FE;
+}
+.swal-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #DEE8FE;
+    text-align: center;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) { 
     #txt-box{
         margin-top: 50px;
@@ -287,7 +311,9 @@ footer{
         padding: 5px;
         margin-left: 0px;
         display: block;
-        margin: auto;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .email2{
         width: 600px;
@@ -303,7 +329,12 @@ footer{
         width: 200px;
         margin-left: 0px;
         display: block;
-        margin: auto;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .sub-head{
+        margin-bottom: 30px;
     }
     .head-4{
         text-align: center;
@@ -342,9 +373,10 @@ footer{
     height: 60px;
     width: 200px;
     padding: 5px;
-    margin-left: 0px;
     display: block;
-    margin: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .head-1{
     text-align: center;
@@ -370,12 +402,17 @@ footer{
     width: 200px;
     margin-left: 0px;
     display: block;
-    margin: auto;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sub-head{
+    margin-bottom: 30px;
 }
 #about{
     margin-top: 30px;
 }
 form{
-    margin: 40px;
+    margin: 15px;
 }
 }
