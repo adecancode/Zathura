@@ -21,7 +21,7 @@
                 },
                 // add an action to be carried out when submission is successful
                 error: (error) => {
-                  swal("Invaild email s/ Could not connect to Database", {
+                  swal("Invaild email/Could not connect to Database", {
                     buttons: false,
                     timer: 3000,
                 });
